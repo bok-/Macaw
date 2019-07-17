@@ -1,6 +1,6 @@
 import Foundation
 #if os(OSX)
-@testable import MacawOSX
+@testable import Macaw
 #endif
 
 #if os(iOS)

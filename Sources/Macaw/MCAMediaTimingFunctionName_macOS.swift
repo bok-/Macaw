@@ -1,6 +1,6 @@
 //
 //  MCAMediaTimingFunctionName_macOS.swift
-//  MacawOSX
+//  Macaw
 //
 //  Created by Anton Marunko on 27/09/2018.
 //  Copyright © 2018 Exyte. All rights reserved.

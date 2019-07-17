@@ -8,7 +8,7 @@
 
 #if os(OSX)
 import Foundation
-@testable import MacawOSX
+@testable import Macaw
 #endif
 
 #if os(iOS)
@@ -384,7 +384,7 @@ extension Polygon: Serializable {
 #endif
 
 #if os(OSX)
-extension MacawOSX.Polygon: Serializable {
+extension Macaw.Polygon: Serializable {
     
     func toDictionary() -> [String:Any] {
         return ["type": "Polygon", "points": points]
